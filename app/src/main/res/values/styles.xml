@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.SyncAudio" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- You don't need to set windowBackground if layout handles it -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+
+</resources>

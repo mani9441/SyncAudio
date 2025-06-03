@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg_image"
+        android:scaleType="centerCrop" />
+
+    <!-- Transparent gradient overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_overlay" />
+
+    <!-- Foreground content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+
+        <!-- Join as Client Button -->
+        <TextView
+            android:id="@+id/btn_join_client"
+            android:layout_width="301dp"
+            android:layout_height="137dp"
+            android:layout_marginTop="16dp"
+            android:text="SyncAudio"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:background="@drawable/button_gradient" />
+    </LinearLayout>
+</FrameLayout>
